@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1 { /*ES EL ENCABEZADO DE MARCACIO N TITULO*/
+	 text-align: center; /* ALINEACION DEL TEXTO A CENTRADO*/
+    background-color: black; /*DEFINE EL FONDO DE COLOR*/
+    color: white; /*SELECCIONA EL VALOR DE COLOR DE PRIMER PLANO DEL CONTENIDO DE ELEMENTO DE TEXTO Y DECORACIONES DE TEXTO.*/
+    padding: 20px; /*ESTABLECE EL ÁREA DE RELLENO EN LOS CUATRO LADOS DE UN ELEMENTO A LA VEZ.*/
+}
+
+nav ul { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    background-color: #757575; /*DEFINE EL FONDO DE COLOR*/
+    width: 100%;
+    list-style-type: none;
+    text-align: center;  /*ESTABLECE EL ANCHO DE UN ELEMENTO*/
+}
+nav li{
+    display: inline-flex;
+}
+nav a { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    text-decoration: none; /*SE USA PARA ESTABLECER EL FORMATO DE TEXTO (DESACTIVAR VISUALIZACIÓN)*/
+    color: white; /*SELECCIONA EL VALOR DE COLOR DE PRIMER PLANO DEL CONTENIDO DE ELEMENTO DE TEXTO Y DECORACIONES DE TEXTO.*/
+    padding: 10px; /*ESTABLECE EL ÁREA DE RELLENO EN LOS CUATRO LADOS DE UN ELEMENTO A LA VEZ.*/
+    width: 150px; /*ESTABLECE EL ANCHO DE UN ELEMENTO*/
+}
+
+nav li:hover { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    background-color: orange; /*DEFINE EL FONDO DE COLOR*/
+}
+img { /*ELEMNTO DE REMPLAZO*/
+    width: 200px; /*ESTABLECE EL ANCHO DE UN ELEMENTO*/
+    height: 200px; /*ALTURA DEL ELEMENTO EN PIXELES*/
+    border-radius: 60%; /*ESTABLECE EL REDONDEDO DE LA IMAGEN EN PORCIENTO*/
+    object-fit:cover; /*AJUSTARCE AL CONTENEDOR DE LA IMAGEN*/
+}
+
+.contenido { /*ELEMENTO INSERTADO EN EL HTML*/
+    display: flex; /*ELEMENTO ES TRATADO COMO BLOCK OR INLINE ELEMENT (FLEXIBLE)*/
+    margin: 60px; /*ESTABLECE EL MARGEN DE LOS 4 LADOS*/
+}
+.articulos { /*ELEMENTO INSERTADO EN EL HTML*/
+    width: 80%; /*ESTABLECE EL ANCHO DE UN ELEMENTO*/
+    border-right: 3px solid black; /*DAR VALOR AL BORDE*/
+}
+.secciones { /*ELEMENTO INSERTADO EN EL HTML*/
+    display: flex; /*ESTABLECE EL ANCHO DE UN ELEMENTO*/
+    align-items: center; /* ESTABLECE EL VALOR ALIGN-SELF SOBRE TODOS LOS DESCENDIENTES DIRECTOS DE UN GRUPO (CENTRADO)*/
+    padding: 40px; /*ESTABLECE EL ÁREA DE RELLENO EN LOS CUATRO LADOS DE UN ELEMENTO A LA VEZ*/
+}
+.menu-secundario { /*ELEMENTO INSERTADO EN EL HTML*/
+    width: 20%; /*ESTABLECE EL ANCHO DE UN ELEMENTO*/
+    margin-top: 60px; /*ESTABLECE EL MARGEN SUPERIOR DE UN ELEMENTO ESPECIFICANDO UNA LONGITUD PIXELES*/
+}
+.menu-secundario a { /*ELEMENTO INSERTADO EN EL HTML*/
+        display: block; /*ELEMENTO ES TRATADO COMO BLOCK OR INLINE ELEMENT (BLOQUEO)*/
+        text-align: center; /* ALINEACION DEL TEXTO A CENTRADO*/
+        color: black; /*SELECCIONA EL VALOR DE COLOR DE PRIMER PLANO DEL CONTENIDO DE ELEMENTO DE TEXTO Y DECORACIONES DE TEXTO.*/
+        margin-bottom: 20px; /*ELEMENTO QUE ESTABLECE EL ESPACIO REQUERIDO EN LA PARTE INFERIOR DE UN ELEMENTO.*/
+    }
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}    
+footer p{
+    text-align: center;
+    padding: 50px;
+}
